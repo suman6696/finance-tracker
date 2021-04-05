@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
 end
 gem("rails", "~> 5.2.4.4")
 gem("devise")
+gem("webpacker")
 gem("execjs")
 gem("twitter-bootstrap-rails")
 gem("jquery-rails")
@@ -17,6 +18,7 @@ gem("uglifier", ">= 1.3.0")
 gem("coffee-rails", "~> 4.2")
 gem("turbolinks", "~> 5")
 gem("jbuilder", "~> 2.5")
+gem( "stock_quote", "~> 3.0.0")
 group(:development, :test) do
   gem("sqlite3")
   gem("byebug", :platforms => ([:mri, :mingw, :x64_mingw]))
